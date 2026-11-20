@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.column {
+    background-color: #20a9a3;
+    color: white;
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px; 
+}
